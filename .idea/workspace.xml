@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="525a1ed1-d105-4b47-8b2b-059b1e21eee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/BaseDisc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/OpticalDisc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/BaseDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/BaseDisc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/CD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/DVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -88,6 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1573242472194</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finish Studio 8">
+      <created>1600131329520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600131329521</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,10 +108,38 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish Studio 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Studio 8" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="773" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1600130337234">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="773" y="240" key="#com.intellij.ide.util.MemberChooser/0.25.1920.1055/-1080.-427.1080.1895/1920.25.1680.1025@0.25.1920.1055" timestamp="1600130337234" />
+    <state width="1878" height="288" key="GridCell.Tab.0.bottom" timestamp="1600133181518">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.bottom/0.25.1920.1055/-1080.-427.1080.1895/1920.25.1680.1025@0.25.1920.1055" timestamp="1600133181518" />
+    <state width="1878" height="288" key="GridCell.Tab.0.center" timestamp="1600133181517">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.center/0.25.1920.1055/-1080.-427.1080.1895/1920.25.1680.1025@0.25.1920.1055" timestamp="1600133181517" />
+    <state width="1878" height="288" key="GridCell.Tab.0.left" timestamp="1600133181516">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.left/0.25.1920.1055/-1080.-427.1080.1895/1920.25.1680.1025@0.25.1920.1055" timestamp="1600133181516" />
+    <state width="1878" height="288" key="GridCell.Tab.0.right" timestamp="1600133181517">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.right/0.25.1920.1055/-1080.-427.1080.1895/1920.25.1680.1025@0.25.1920.1055" timestamp="1600133181517" />
+    <state x="469" y="188" key="SettingsEditor" timestamp="1600133178995">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="469" y="188" key="SettingsEditor/0.25.1920.1055/-1080.-427.1080.1895/1920.25.1680.1025@0.25.1920.1055" timestamp="1600133178995" />
+    <state x="560" y="289" key="Vcs.Push.Dialog.v2" timestamp="1600131331811">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="560" y="289" key="Vcs.Push.Dialog.v2/0.25.1920.1055/-1080.-427.1080.1895/1920.25.1680.1025@0.25.1920.1055" timestamp="1600131331811" />
   </component>
 </project>

@@ -4,6 +4,17 @@ public abstract class BaseDisc implements OpticalDisc{
     protected int storageCapacity;
     protected String name;
     protected int runtime;
+    private String mediaType;
+    private int dataSize;
+
+    public BaseDisc(int storageCapacity, String name, int dataSize, int runtime, String mediaType) {
+        this.storageCapacity = storageCapacity;
+        this.name = name;
+        this.dataSize = dataSize;
+        this.runtime = runtime;
+        this.mediaType = mediaType;
+    }
+
 
     public int getStorageCapacity() {
         return storageCapacity;
@@ -37,8 +48,6 @@ public abstract class BaseDisc implements OpticalDisc{
         this.mediaType = mediaType;
     }
 
-    private String mediaType;
-
     public int getDataSize() {
         return dataSize;
     }
@@ -47,21 +56,8 @@ public abstract class BaseDisc implements OpticalDisc{
         this.dataSize = dataSize;
     }
 
-    private int dataSize;
-
-
-
-    public BaseDisc(int storageCapacity, String name, int dataSize, int runtime, String mediaType) {
-        this.storageCapacity = storageCapacity;
-        this.name = name;
-        this.dataSize = dataSize;
-        this.runtime = runtime;
-        this.mediaType = mediaType;
-    }
-
     public void getRemainingCapacity() {
         System.out.println("Used space: " + this.dataSize + "MB Capacity: " + this.storageCapacity + "MB Remaining Space: " + (this.storageCapacity - this.dataSize) + "MB");
-
     }
 
 }

@@ -1,6 +1,13 @@
 package org.launchcode.studio7;
 
 public class DVD extends BaseDisc {
+    private int resolution;
+
+    public DVD(int storageCapacity, String name, int dataSize, int runtime, String mediaType, int resolution) {
+        super(storageCapacity,name,dataSize,runtime,mediaType);
+        this.resolution = resolution;
+    }
+
 
     public int getResolution() {
         return resolution;
@@ -9,8 +16,6 @@ public class DVD extends BaseDisc {
     public void setResolution(int resolution) {
         this.resolution = resolution;
     }
-
-    private int resolution;
 
     @Override
     public void startDisc() {
@@ -22,11 +27,6 @@ public class DVD extends BaseDisc {
         System.out.println("The DVD is now stopping");
     }
 
-
-    public DVD(int storageCapacity, String name, int dataSize, int runtime, String mediaType, int resolution) {
-        super(storageCapacity,name,dataSize,runtime,mediaType);
-        this.resolution = resolution;
-    }
 
     // TODO: Implement your custom interface.
 

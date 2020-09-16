@@ -1,6 +1,12 @@
 package org.launchcode.studio7;
 
 public class CD extends BaseDisc {
+    private double bitrate;
+
+    public CD(int storageCapacity, String name, int dataSize, int runtime, String mediaType, double bitrate) {
+        super(storageCapacity,name,dataSize,runtime,mediaType);
+        this.bitrate = bitrate;
+    }
 
     public double getBitrate() {
         return bitrate;
@@ -10,7 +16,6 @@ public class CD extends BaseDisc {
         this.bitrate = bitrate;
     }
 
-    private double bitrate;
 
     @Override
     public void startDisc() {
@@ -20,12 +25,6 @@ public class CD extends BaseDisc {
     @Override
     public void stopDisc() {
         System.out.println("Stopping that CD now");
-    }
-
-
-    public CD(int storageCapacity, String name, int dataSize, int runtime, String mediaType, double bitrate) {
-        super(storageCapacity,name,dataSize,runtime,mediaType);
-        this.bitrate = bitrate;
     }
 
     // TODO: Implement your custom interface.
